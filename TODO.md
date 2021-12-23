@@ -1,0 +1,3 @@
+- Add xorwow
+- Add xorshift32a
+- Add xorshift32b
