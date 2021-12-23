@@ -16,6 +16,6 @@ jobs:
         with:
           version: 6.0.2
       - run: pnpm i
-      - run: pnpm publish
+      - run: pnpm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
