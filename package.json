@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "clean": "rimraf prng.js"
+    "clean": "rimraf *.js *.d.ts"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
